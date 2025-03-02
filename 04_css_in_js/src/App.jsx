@@ -1,0 +1,21 @@
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Slider from './components/Slider';
+import { useState } from "react";
+
+export default function App() {
+  const [isDark, setIsDark] = useState(false);
+
+    function ChangeTheme(){
+        setIsDark(!isDark);
+    }
+
+  return (
+    <div id="app" className={isDark ? 'dark' : 'light'}>
+      <Header theme={ChangeTheme} />
+      <Slider />
+      <Footer />
+    </div>
+  )
+}
+

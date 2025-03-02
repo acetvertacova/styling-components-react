@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: $primary-color;
+    border: 1px solid $font-color;
+    font-family: $font;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    &__title {
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: $font-color;
+        letter-spacing: 0.5px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    @include lg {
+        padding: 1rem;
+    }
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: $font-color;
+    border-radius: 4px;
+    cursor: pointer;
+  }
