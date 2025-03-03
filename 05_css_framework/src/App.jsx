@@ -11,11 +11,11 @@ export default function App() {
     }
 
   return (
-  <div className={isDark ? "bg-black" : "bg-white"}>
+  <div className={isDark ? "dark" : "light"}>
       <Header changeTheme={ChangeTheme} />
       <Slider />
       <Footer />
-    </div>
+  </div>
   )
 }
 
