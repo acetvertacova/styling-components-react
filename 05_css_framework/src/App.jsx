@@ -11,8 +11,8 @@ export default function App() {
     }
 
   return (
-    <div className={isDark ? 'dark' : 'light'}>
-      <Header theme={ChangeTheme}/>
+    <div>
+      <Header changeTheme={ChangeTheme}/>
       <Slider />
       <Footer />
     </div>

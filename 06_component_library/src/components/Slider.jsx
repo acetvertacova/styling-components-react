@@ -1,5 +1,6 @@
 import {profiles} from './profiles';
 import { useState } from 'react'
+import {Avatar, Box, Text, Card, Flex, Button} from '@radix-ui/themes';
 
 export default function Slider() {
 
@@ -20,14 +21,18 @@ export default function Slider() {
     let currentProfile = profiles[index];
 
     return(
-    <div>
-      <img src ={currentProfile.avatar} />
-        <h2>{currentProfile.name}</h2>
-        <h3>{currentProfile.position}</h3>
-        <p>{currentProfile.description}</p>
+    <Card style={{ backgroundColor: "var(--iris-a9)", radius: "none" }}>
+      <Flex gap="2" align="center">
+      <Avatar size="9" fallback="T" radius="full" src ={currentProfile.avatar} />
+        <Box>
+        <Text as="div" size="5" weight="bold">{currentProfile.name}</Text>
+        <Text as="div" size="3" color="gray">{currentProfile.position}</Text>
+        <Text as="div" size="2" color="gray">{currentProfile.description}</Text>
+        </Box>
 
-    <button onClick={previosPost}>Previous post</button>
-    <button onClick={nextPost}>Next post</button>
-    </div>
+        <Button variant="classic" radius="full" onClick={previosPost}>Previous post</Button>
+        <Button variant="classic" radius="full" onClick={nextPost}>Next post</Button>
+      </Flex>
+    </Card>
     )
 }

@@ -1,0 +1,12 @@
+@theme {
+
+    --color-primary: #c8d9e6;
+    --color-secondary: #567c8d;
+    --color-border: #2f4156;
+    --color-font: #f5efeb;
+    --color-light: #ffffff;
+  
+  
+    --font-serif: 'Agu Display', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    
+  }

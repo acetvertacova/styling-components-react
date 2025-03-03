@@ -20,14 +20,16 @@ export default function Slider() {
     let currentProfile = profiles[index];
 
     return(
-    <div>
-      <img src ={currentProfile.avatar} />
-        <h2>{currentProfile.name}</h2>
-        <h3>{currentProfile.position}</h3>
-        <p>{currentProfile.description}</p>
+    <div className="bg-primary text-font border border-border p-4">
+      <img src ={currentProfile.avatar} className="w-32 h-32 rounded-full mx-auto"/>
+        <h2 className="text-2xl font-serif text-center mt-4">{currentProfile.name}</h2>
+        <h3 className="text-lg font-serif text-center text-secondary mt-2">{currentProfile.position}</h3>
+        <p className="text-center mt-2">{currentProfile.description}</p>
 
-    <button onClick={previosPost}>Previous post</button>
-    <button onClick={nextPost}>Next post</button>
+      <div className="flex justify-between mt-4">
+        <button className="bg-secondary text-font py-2 px-4 rounded hover:bg-border" onClick={previosPost}>Previous post</button>
+        <button className="bg-secondary text-font py-2 px-4 rounded hover:bg-border" onClick={nextPost}>Next post</button>
+      </div>
     </div>
     )
 }

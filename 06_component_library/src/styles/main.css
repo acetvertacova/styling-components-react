@@ -1,0 +1,17 @@
+@import '@radix-ui/themes/styles.css';
+
+@import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.radix-themes {
+    --heading-font-family: 'Madimi One', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    margin: 40px auto;
+    padding: 0;
+    max-width: 1270px;
+    background-color: #f5f5f5;
+  }

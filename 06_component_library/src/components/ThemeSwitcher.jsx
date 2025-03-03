@@ -1,8 +1,8 @@
-export default function ThemeSwitcher({onChange}) {
+import {Button, Switch} from '@radix-ui/themes';
+
+export default function ThemeSwitcher({onClick}) {
 
     return(
-        <div>
-            <button>Switch theme</button>
-        </div>
+            <Switch color="iris" defaultChecked onClick={onClick}/>
     )
 }
