@@ -9,15 +9,13 @@ The header is styled with a flexbox layout, aligning elements horizontally and c
 
 **CSS properties**
 
-`display:` flex; - Aligns items in a row.
-
-`justify-content:` space-between; - Spreads elements apart.
-
-`align-items: center;` - Centers elements vertically.
-`border-radius: 10px;` - Adds rounded corners.
-`background-color: #f2d7d3;` - Light pink background.
-`color: #e85234;` - Red text color.
-`box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);` - Adds subtle shadow.
+    * `display:` flex; - Aligns items in a row.
+    *  `justify-content:` space-between; - Spreads elements apart.
+    *  `align-items: center;` - Centers elements vertically.
+    *  `border-radius: 10px;` - Adds rounded corners.
+    *  `background-color: #f2d7d3;` - Light pink background.
+    *  `color: #e85234;` - Red text color.
+    *  `box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);` - Adds subtle shadow.
 
 ### 2. Header's title (.title)
 The title is styled to be bold and prominent.
