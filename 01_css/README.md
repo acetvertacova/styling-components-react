@@ -10,7 +10,9 @@ The header is styled with a flexbox layout, aligning elements horizontally and c
 **CSS properties**
 
 `display:` flex; - Aligns items in a row.
+
 `justify-content:` space-between; - Spreads elements apart.
+
 `align-items: center;` - Centers elements vertically.
 `border-radius: 10px;` - Adds rounded corners.
 `background-color: #f2d7d3;` - Light pink background.
