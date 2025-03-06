@@ -28,8 +28,11 @@ CSS-in-JS is a styling approach that allows writing styles directly within JavaS
 
 Features
 ✅ Scoped styles (no class name conflicts)
+
 ✅ Dynamic styling with props
+
 ✅ Supports themes and global styles
+
 ✅ Uses real CSS syntax, including nesting and pseudo-selectors
 
 **Example**
