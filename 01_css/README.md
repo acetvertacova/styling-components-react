@@ -106,4 +106,3 @@ The footer is fixed at the bottom with a light pink background and centered text
 
 
 
-
