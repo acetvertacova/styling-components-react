@@ -4,7 +4,9 @@ SCSS is a powerful extension of CSS that introduces new features such as variabl
 
 ## SCSS OVERVIEW
 
-**Variables usage:** Variables allow for centralized style changes. For example, a single color can be reused in multiple places.
+### **Variables usage:** 
+
+Variables allow for centralized style changes. For example, a single color can be reused in multiple places.
 
   ```jsx
     $primary-color: #d7c2d8;
@@ -18,7 +20,7 @@ SCSS is a powerful extension of CSS that introduces new features such as variabl
     background-color: $font-color;
   ```
 
-**`&` Usage for references to the parent element:**
+### **`&` Usage for references to the parent element:**
 
   ```jsx
     .avatar {
@@ -37,6 +39,68 @@ SCSS is a powerful extension of CSS that introduces new features such as variabl
         }
     }
   ```
+
+### *Mixins for media queries**
+
+Mixins in SCSS are a mechanism for reusing blocks of styles, allowing you to conveniently and efficiently insert sets of styles into other rules or components. They serve as templates for CSS rules that can be used repeatedly, which significantly reduces code duplication.
+
+Mixins are defined with the `@mixin` keyword and then used with the `@include` keyword. Mixins can accept parameters, which makes them even more flexible.
+
+In my example, mixins are used to create responsive styles that apply depending on the screen width (using media queries). Each mixin (sm, md, lg, xl) contains a media query that applies if the screen width matches a specific minimum value. You have used these mixins inside the styling of elements to adapt sizes, margins, and other properties for different screens.
+
+**For example, in .header:**
+
+Mixins/_media-query.scss
+
+  ```
+    @mixin sm {
+        @media screen and (min-width: $xs) {
+          @content;
+        }
+      }
+      
+      @mixin md {
+        @media screen and (min-width: $sm) {
+          @content;
+        }
+      }
+      
+      @mixin lg {
+        @media screen and (min-width: $md) {
+          @content;
+        }
+      }
+      
+      @mixin xl {
+        @media screen and (min-width: $lg) {
+          @content;
+        }
+      }
+  ```
+
+.header:
+
+  ```
+          @include sm {
+              font-size: 1.8rem;
+          }
+  
+          @include md {
+              font-size: 2rem;
+          }
+  
+          @include lg {
+              font-size: 2.2rem;
+          }
+  
+          @include xl {
+              font-size: 2.5rem;
+          }
+  
+  ```
+
+
+
 
 
 
