@@ -1,12 +1,47 @@
-# React + Vite
+# Project Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SCSS is a powerful extension of CSS that introduces new features such as variables, nested rules, mixins, and more. It simplifies style development and maintenance, and after compilation, it is converted into standard CSS that is compatible with browsers.
 
-Currently, two official plugins are available:
+## SCSS OVERVIEW
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Variables usage:** Variables allow for centralized style changes. For example, a single color can be reused in multiple places.
 
-## Expanding the ESLint configuration
+  ```jsx
+    $primary-color: #d7c2d8;
+    $font-color: #b3d9e1;
+  
+    //FOR HEADER COMPONENT
+    background-color: $primary-color;
+    border: 1px solid $font-color;
+  
+    //FOR BUTTON
+    background-color: $font-color;
+  ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**`&` Usage for references to the parent element:**
+
+  ```jsx
+    .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 60% 40% 50% 50% / 40% 50% 50% 60%;
+        object-fit: cover;
+        border: 4px solid white;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease;
+    
+        &:hover { 
+            transform: scale(1.05);
+            border-radius: 50%;
+        }
+    }
+  ```
+
+
+
+
+
+
+
+ 
