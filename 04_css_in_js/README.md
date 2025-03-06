@@ -27,13 +27,10 @@ CSS-in-JS is a styling approach that allows writing styles directly within JavaS
 **`styled-components`** is a popular library for styling React applications using the CSS-in-JS approach. It allows you to write CSS styles directly in JavaScript and bind them to components dynamically. 
 
 Features
-✅ Scoped styles (no class name conflicts)
-
-✅ Dynamic styling with props
-
-✅ Supports themes and global styles
-
-✅ Uses real CSS syntax, including nesting and pseudo-selectors
+- ✅ Scoped styles (no class name conflicts)
+- ✅ Dynamic styling with props
+- ✅ Supports themes and global styles
+- ✅ Uses real CSS syntax, including nesting and pseudo-selectors
 
 **Example**
 
