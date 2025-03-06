@@ -103,8 +103,8 @@ Mixins/_media-query.scss:
 SCSS supports file imports for code organization. Now, CSS can be split into several logical parts and imported into a single file.
 
 **Final Project structure:**
-
-  src/
+```
+ src/
   │── assets/
   │── components/
   │   │── Footer.jsx
@@ -126,7 +126,7 @@ SCSS supports file imports for code organization. Now, CSS can be split into sev
   │── App.jsx
   │── main.jsx
   |── ...
-
+```
 
 ## Instructions for Running the Project
 
