@@ -95,6 +95,9 @@ The footer is fixed at the bottom with a light pink background and centered text
 - Easy Integration: Can be easily applied to any project, regardless of the technology stack.
 - Team Collaboration: Each developer can work on the styles of their own component without affecting others.
 
+### The following image illustrates the successful launch of the project:
+
+<img src="../01_css//public/reference.png">
 
 
 
