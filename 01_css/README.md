@@ -97,7 +97,7 @@ The footer is fixed at the bottom with a light pink background and centered text
 
 ## The following image illustrates the successful launch of the project.
 
-<img src="../public/reference.png">
+<img src="../01_css//public/reference.png">
 
 
 
