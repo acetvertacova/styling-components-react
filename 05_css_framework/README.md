@@ -1,4 +1,4 @@
-# Project Documentation
+# Project's Documentation
 
 Tailwind CSS is a utility-first CSS framework that simplifies web development by providing a set of pre-designed utility classes. The best part is, we do not have to write these utility classes ourselves and keep them in any global CSS file. We directly get them from Tailwind.
 
