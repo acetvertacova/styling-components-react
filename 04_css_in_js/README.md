@@ -71,7 +71,7 @@ In Header component created two items styles with `styled-components`: Wrapper a
     }
 ```
 
-❕ **Theme Object**
+**Theme Object**
 
 The theme object is used in Styled-Components (or other styling systems) to define a global theme for a React application. This allows you to manage colors, fonts, and other styles in a centralized way, making it easier to maintain consistency across components.
 
