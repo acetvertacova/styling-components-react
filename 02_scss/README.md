@@ -1,4 +1,4 @@
-# Project Documentation
+# Project's Documentation
 
 SCSS is a powerful extension of CSS that introduces new features such as variables, nested rules, mixins, and more. It simplifies style development and maintenance, and after compilation, it is converted into standard CSS that is compatible with browsers.
 
