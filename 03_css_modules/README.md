@@ -1,4 +1,4 @@
-# Project Documentation
+# Project's Documentation
 
 CSS Modules are a modern way to style components in React, allowing for style isolation and preventing conflicts.
 
