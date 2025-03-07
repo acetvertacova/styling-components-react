@@ -1,4 +1,4 @@
-# Project Documentation 
+# Project's Documentation 
 
 CSS-in-JS is a styling approach that allows writing styles directly within JavaScript code. This simplifies style management and tightly integrates styles with component logic.
 
