@@ -59,6 +59,7 @@ Tailwind CSS is a utility-first CSS framework that simplifies web development by
   ```
 
 
+
 - `py-4` → Adds vertical padding (padding-top and padding-bottom), 4 = 16px.
 - `px-10` → Adds horizontal padding (padding-left and padding-right).
 - `flex` → Applies display: flex;, making the element a flex container.
@@ -91,7 +92,7 @@ Tailwind CSS is a utility-first CSS framework that simplifies web development by
 
   5. Run the project.
 
-## Use Cases Tailwind CSS:
+## Use Cases of Tailwind CSS:
 
  - Single Page Application (SPA);
  - Component-Based Development
