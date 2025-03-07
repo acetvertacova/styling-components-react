@@ -4,7 +4,7 @@ Tailwind CSS is a utility-first CSS framework that simplifies web development by
 
 **Project's Structure**
 
-    ```
+
         src/
         ├── assets/
         ├── components/
@@ -19,7 +19,7 @@ Tailwind CSS is a utility-first CSS framework that simplifies web development by
         ├── App.jsx
         ├── main.jsx
         |── ...
-    ```
+    
     
 ## TAILWIND CSS Overview
 
