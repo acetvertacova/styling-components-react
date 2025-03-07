@@ -58,15 +58,15 @@ Tailwind CSS is a utility-first CSS framework that simplifies web development by
     }
   ```
 
-  ```
-    py-4 → Adds vertical padding (padding-top and padding-bottom), 4 = 16px.
-    px-10 → Adds horizontal padding (padding-left and padding-right).
-    flex → Applies display: flex;, making the element a flex container.
-    justify-between → Distributes child elements with space between them (justify-content: space-between;).
-    bg-secondary → Sets the background color to secondary (which is defined in the Tailwind theme).
-    items-center → Aligns items along the cross-axis (vertically in a row layout) to the center (align-items: center;).
-    w-full → Sets the width to 100% (width: 100%;).
-  ```
+
+- `py-4` → Adds vertical padding (padding-top and padding-bottom), 4 = 16px.
+- `px-10` → Adds horizontal padding (padding-left and padding-right).
+- `flex` → Applies display: flex;, making the element a flex container.
+- `justify-between` → Distributes child elements with space between them (justify-content: space-between;).
+- `bg-secondary` → Sets the background color to secondary (which is defined in the Tailwind theme).
+- `items-center` → Aligns items along the cross-axis (vertically in a row layout) to the center (align-items: center;).
+- `w-full` → Sets the width to 100% (width: 100%;).
+
 
 ## Instructions for Tailwind CSS Launching
 
