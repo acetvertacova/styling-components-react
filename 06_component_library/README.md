@@ -52,14 +52,14 @@ Usage example on the base of Header component. In the RadixUI's documenation I f
 
    ```
      npm install @radix-ui/themes
-   ```
+
 
 2. Connect the library's styles to the global styling file.
    
    ```
      /* main.css */
      @import '@radix-ui/themes/styles.css';
-  ```
+  
 
 ## Use Cases of pre-styled libraries:
 
