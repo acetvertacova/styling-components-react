@@ -30,21 +30,16 @@ Developing the skills to make informed decisions when choosing a styling methodo
 |     Advantage        |                                   Description                                  |
 |----------------------|--------------------------------------------------------------------------------|
 | **Time Efficiency**  | Speeds up development by providing pre-built styles and components.            |
-|----------------------|--------------------------------------------------------------------------------|
 | **Consistency**      | Ensures a uniform look and feel across the website, improving user experience. |
-|----------------------|--------------------------------------------------------------------------------|
 | **Responsiveness**   | Adapts well to different screen sizes, making mobile-friendly design easier.   |
-|----------------------|--------------------------------------------------------------------------------|
+
 
 
 |     Disadvantage          |                               Description                                      |
 |---------------------------|--------------------------------------------------------------------------------|
 | **Learning Curve**        | Requires learning the framework’s specific conventions and class structure.    |
-|---------------------------|--------------------------------------------------------------------------------|
 | **Bloated Code**          | Includes extra code that may not be needed, potentially affecting performance. |
-|---------------------------|--------------------------------------------------------------------------------|
 | **Limited Customization** | Can restrict design flexibility, making it harder to create a unique look.     |
-|---------------------------|--------------------------------------------------------------------------------|
 
 ### What is the difference between CSS Modules, regular CSS files, and SCSS?
 
@@ -77,17 +72,13 @@ Developing the skills to make informed decisions when choosing a styling methodo
 |                         CSS-in-JS (styled-components)                                     |
 |-------------------------------------------------------------------------------------------|
 | Styles are written in JavaScript using a library (e.g., styled-components).               |
-|-------------------------------------------------------------------------------------------|
 | Adv: Styles are isolated. Ability to change styles via props. Support for dynamic styles. |
-|-------------------------------------------------------------------------------------------|
 | Disadvanrage: Increases the size of JavaScript files. Dependency on external libraries.   |
-|-------------------------------------------------------------------------------------------|
 | Suitable for applications with many interactions and conditions.                          |
-|-------------------------------------------------------------------------------------------|
 
 ## Source List
 
 - [css vs scss](https://www.geeksforgeeks.org/what-is-the-difference-between-css-and-scss/)
 - [css vs css-modules](https://medium.com/@nyshawnburton/css-vs-module-css-e7cee9d77f68)
 - [css frameworks](https://www.freecodecamp.org/news/css-frameworks-vs-custom-css/)
-  
+- [course git](https://github.com/MSU-Courses/development-of-web-application-with-react/blob/main/03_Component_Styling/03_02_Methods_of_Component_Styling.md)
