@@ -43,8 +43,6 @@ Developing the skills to make informed decisions when choosing a styling methodo
 
 ### What is the difference between CSS Modules, regular CSS files, and SCSS?
 
-# CSS Modules vs. Regular CSS Files vs. SCSS
-
 **CSS:**
 
  - Standard stylesheet language for styling web pages
